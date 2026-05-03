@@ -17,7 +17,7 @@ jobs:
 
       - name: Run Tests and Package
         # Đảm bảo đường dẫn này đúng với vị trí file pom.xml của bạn
-        run: mvn -f bai3/pom.xml package
+        run: mvn package
 
       - name: Save Artifact
         uses: actions/upload-artifact@v4 # ĐÂY LÀ CHỖ CẦN SỬA CHÍNH
