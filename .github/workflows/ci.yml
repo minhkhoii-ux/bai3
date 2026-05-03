@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4 # ĐÂY LÀ CHỖ CẦN SỬA CHÍNH
         with:
           name: my-jar-file
-          path: week9/bai3/target/*.jar
+          path: target/*.jar
